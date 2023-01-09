@@ -19,6 +19,9 @@
 body {
   display: grid;
   place-items: center;
+  background-image: url("images/bg-pattern-top.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   background-color: var(--color-primary);
   font-family: var(--font-primary);
