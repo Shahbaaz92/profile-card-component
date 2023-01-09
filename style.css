@@ -25,9 +25,9 @@ body {
 }
 main {
   background-color: var(--color-card);
-  min-width: 360px;
+  max-width: 300px;
   /* min-height: 60vh; */
-  height: 370px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@ main {
   border-radius: 15px;
   overflow: hidden;
   position: relative;
-  row-gap: 0.25em;
+  row-gap: 30px;
 }
 .empty {
   width: 100%;
@@ -49,12 +49,15 @@ main {
 img {
   border-radius: 50%;
   z-index: 1;
+  position: absolute;
+  top: 75px;
 }
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 130px;
 }
 .bold {
   font-size: 1.25rem;
@@ -71,13 +74,14 @@ p {
 }
 .numbers {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-hr {
-  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  row-gap: 10px;
+  margin-bottom: -30px;
+  padding-top: 10px;
   border-top: 1px solid var(--color-text-neutral);
 }
+
 .num {
   display: flex;
   flex-direction: column;
