@@ -19,9 +19,11 @@
 body {
   display: grid;
   place-items: center;
-  background-image: url("images/bg-pattern-top.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-position: -10% -900%, 110% 900%;
+  background-size: 500px, 500px;
+  background-repeat: no-repeat, no-repeat;
   min-height: 100vh;
   background-color: var(--color-primary);
   font-family: var(--font-primary);
