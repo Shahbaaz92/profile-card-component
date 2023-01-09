@@ -6,8 +6,8 @@
   --color-primary: hsl(185, 75%, 39%);
   --color-card: #ffffff;
   --color-text-main: hsl(229, 23%, 23%);
-  --color-text-sub: hsl(227, 10%, 46%);
-  --color-text-neutral: #969696;
+  --color-text-sub: rgb(106, 111, 129);
+  --color-text-neutral: rgba(150, 150, 150, 0.3);
 }
 
 * {
@@ -26,7 +26,6 @@ body {
 main {
   background-color: var(--color-card);
   max-width: 300px;
-  /* min-height: 60vh; */
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -58,6 +57,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 130px;
+  row-gap: 10px;
 }
 .bold {
   font-size: 1.25rem;
